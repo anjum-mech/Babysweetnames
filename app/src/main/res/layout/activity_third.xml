@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40FFEB3B">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/boy"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/boy"
+            android:text="Boy"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/girl"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/girl"
+            android:text="Girl"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Plz Select Gender"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="40dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40E91E63">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <ImageView
+            android:id="@+id/image1"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/muslim"
+            android:layout_marginLeft="80dp"/>
+
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/hindu"
+            android:layout_marginLeft="0dp"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/Muslim"
+        android:text="Muslim"
+        android:layout_marginLeft="150dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="40dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:id="@+id/hindu"
+            android:text="Hindu"
+            android:layout_marginLeft="140dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Plz Select Religion"
+            android:gravity="center_horizontal"
+            android:textSize="40dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+    </LinearLayout>

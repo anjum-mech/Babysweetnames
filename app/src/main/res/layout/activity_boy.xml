@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#4003A9F4">
+    android:layout_height="match_parent">
 
     <Toolbar
         android:layout_width="match_parent"
@@ -20,269 +19,278 @@
             android:layout_height="wrap_content">
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="A"
-        android:textSize="30dp"
-        android:id="@+id/A1"
-        android:textStyle="bold"
-        android:textColor="@color/colorAccent"
-        android:background="#40F3BE1D"/>
+            <Button
+                android:id="@+id/btnA1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40F3BE1D"
+                android:text="@string/A"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="B"
-        android:textSize="30dp"
-        android:id="@+id/B1"
-        android:textStyle="bold"
-        android:textColor="@color/colorAccent"
-        android:background="#40FFEB3B"/>
+            <Button
+                android:id="@+id/btnB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/B"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="C"
-        android:textSize="30dp"
-        android:id="@+id/C1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnC1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/C"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="D"
-        android:textSize="30dp"
-        android:id="@+id/D1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnD1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/D"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="E"
-        android:textSize="30dp"
-        android:id="@+id/E1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnE1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/E"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="F"
-        android:textSize="30dp"
-        android:id="@+id/F1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnF1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/F"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="G"
-        android:textSize="30dp"
-        android:id="@+id/G1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnG1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/G"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="H"
-        android:textSize="30dp"
-        android:id="@+id/H1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnH1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/H"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="I"
-        android:textSize="30dp"
-        android:id="@+id/I1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnI1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/I"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="J"
-        android:textSize="30dp"
-        android:id="@+id/J1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnJ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/J"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="K"
-        android:textSize="30dp"
-        android:id="@+id/K1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnK1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/K"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="L"
-        android:textSize="30dp"
-        android:id="@+id/L1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnL1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/L"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="M"
-        android:textSize="30dp"
-        android:id="@+id/M1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnM1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/M"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="N"
-        android:textSize="30dp"
-        android:id="@+id/N1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnN1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/N"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="O"
-        android:textSize="30dp"
-        android:id="@+id/O1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnO1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/O"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="P"
-        android:textSize="30dp"
-        android:id="@+id/P1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnP1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/P"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Q"
-        android:textSize="30dp"
-        android:id="@+id/Q1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnQ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/Q"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="R"
-        android:textSize="30dp"
-        android:id="@+id/R1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnR1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/R"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="S"
-        android:textSize="30dp"
-        android:id="@+id/S1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnS1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/S"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="T"
-        android:textSize="30dp"
-        android:id="@+id/T1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/T"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="U"
-        android:textSize="30dp"
-        android:id="@+id/U1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnU1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/U"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="V"
-        android:textSize="30dp"
-        android:id="@+id/V1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnV1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/V"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="W"
-        android:textSize="30dp"
-        android:id="@+id/W1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnW1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/W"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="X"
-        android:textSize="30dp"
-        android:id="@+id/X1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnX1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/X"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Y"
-        android:textSize="30dp"
-        android:id="@+id/Y1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnY1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/Y"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Z"
-        android:textSize="30dp"
-        android:id="@+id/Z1"
-        android:textStyle="bold"
-        android:background="#40FFEB3B"
-        android:textColor="@color/colorAccent"/>
+            <Button
+                android:id="@+id/btnZ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#40FFEB3B"
+                android:text="@string/Z"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"
+                android:textStyle="bold" />
 
 </LinearLayout>
     </HorizontalScrollView>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fragmentboy"/>
 
-    </LinearLayout>
+
+
+
+
+</LinearLayout>

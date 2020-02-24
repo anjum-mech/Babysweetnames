@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:id="@+id/Welcome"
-    android:background="@drawable/sall"
+    android:background="@drawable/first"
     android:orientation="horizontal">
 
 
